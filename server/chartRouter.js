@@ -28,7 +28,7 @@ const getAllChartsData = async (req, res, next) => {
 }
 
 ///router
-router.get('/',getAllChartsData ,async (req, res) => {
+router.get('/charts',getAllChartsData ,async (req, res) => {
     console.log('router homepage')
     console.log(res.body)
 
