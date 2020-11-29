@@ -35,9 +35,9 @@ app.use(chartRouter);
 //     return res.send('pong');
 // });
 
-// app.get('/*', function (req, res) {
+app.get('/*', function (req, res) {
   // app.get('*', function (req, res) {
-    app.get('/', function (req, res) {    
+    // app.get('/', function (req, res) {    
     res.sendFile(path.join(buildPath, 'index.html'));
 });
 
